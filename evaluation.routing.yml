@@ -1,0 +1,7 @@
+evaluation.default_controller_hello:
+  path: '/evaluation/world'
+  defaults:
+    _controller: '\Drupal\evaluation\Controller\DefaultController::hello'
+    _title: 'Hello World!'
+  requirements:
+    _permission: 'access content'

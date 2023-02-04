@@ -1,0 +1,10 @@
+name: 'evaluation'
+type: module
+description: 'Gestion des evaluation des eleves'
+core_version_requirement: ^8 || ^9 || ^10
+package: 'Custom'
+
+# Information added by Drupal.org packaging script on 2022-09-10
+version: '2.0.x-dev'
+project: 'evaluation'
+datestamp: 1662780777
