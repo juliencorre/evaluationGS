@@ -10,13 +10,13 @@ use Drupal\Core\Routing\RouteMatchInterface;
 /**
  * Implements hook_help().
  */
-function helloworld_help($route_name, RouteMatchInterface $route_match) {
+function evaluation_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
-    // Main module help for the helloworld module.
-    case 'help.page.helloworld':
+    // Main module help for the evaluation module.
+    case 'help.page.evaluation':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('Hello World example module') . '</p>';
+      $output .= '<p>' . t('Evaluation example module') . '</p>';
       return $output;
 
     default:
@@ -26,9 +26,9 @@ function helloworld_help($route_name, RouteMatchInterface $route_match) {
 /**
  * Implements hook_theme().
  */
-function helloworld_theme() {
+function evaluation_theme() {
   return [
-    'helloworld' => [
+    'evaluation' => [
       'render element' => 'children',
     ],
   ];
