@@ -1,0 +1,6 @@
+name: EvaluationGS
+description: 'Module de gestion des évaluations des grandes sections de maternelle'
+type: module
+core: 8.x
+package: Customs
+core_version_requirement: ^10
